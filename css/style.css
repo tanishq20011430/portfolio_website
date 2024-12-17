@@ -9378,7 +9378,10 @@ textarea.form-control {
 
 .contact-section .contact-info p a {
   color: #1a1a1a; }
+.Contact-image {
+  background: #f8f9fa !important;
 
+}
 .contact-section .box {
   width: 100%;
   display: block;
@@ -9411,8 +9414,12 @@ textarea.form-control {
   width: 100%; }
 
 .contact-section .img {
-  width: 100%;
-  background-position: top center; }
+  width: 80%;
+  /* height: 370px; */
+  background-position: top center; 
+  margin: 50px;
+  border-radius: 15px;
+}
   @media (max-width: 991.98px) {
     .contact-section .img {
       height: 500px; } }
@@ -9425,8 +9432,9 @@ textarea.form-control {
   @media (max-width: 767.98px) {
     .contact-section .contact-form .btn-primary {
       display: block;
-      width: 100%; } }
+      width: 100%; }
 
+  }
 .block-9 .form-control {
   outline: none !important;
   -webkit-box-shadow: none !important;
